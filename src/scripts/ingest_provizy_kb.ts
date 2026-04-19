@@ -17,7 +17,7 @@ async function main() {
   }
 
   const connectionString =
-    process.env.DATABASE_URL ?? 'postgres://exp:exp@localhost:5432/experiments';
+    process.env.DATABASE_URL ?? 'postgres://exp:exp@localhost:15432/experiments';
   const embeddingModel =
     process.env.OPENAI_EMBEDDING_MODEL ?? 'text-embedding-3-small';
   const embeddingDimensions = Number(

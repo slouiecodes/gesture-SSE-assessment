@@ -7,7 +7,7 @@
     "start": "node dist/main.js",
     "dev": "tsx watch src/main.ts",
     "seed": "tsx src/db/seed.ts",
-    "ingest:kb": "tsx src/scripts/ingest-provizy-kb.ts"
+    "ingest:kb": "tsx src/scripts/ingest_provizy_kb.ts"
   },
   "dependencies": {
     "express": "^4.21.2",
