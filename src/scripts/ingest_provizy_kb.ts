@@ -6,7 +6,7 @@
  */
 import { config } from 'dotenv';
 import { resolve } from 'node:path';
-import { ingestProvizyKbToPgVector } from '../src/rag/provizy-kb.ingest';
+import { ingestProvizyKbToPgVector } from '../rag/provizy-kb.ingest';
 
 config({ path: resolve(process.cwd(), '.env') });
 
