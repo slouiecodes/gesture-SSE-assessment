@@ -10,8 +10,10 @@ import { Experiment } from './experiments/entities/experiment.entity';
 import { Variant } from './experiments/entities/variant.entity';
 import { ExperimentsService } from './experiments/experiments.service';
 import { HttpError } from './http/http-error';
+import { RagService } from './rag/rag.service';
 import { eventsRoutes } from './routes/events.routes';
 import { experimentsRoutes } from './routes/experiments.routes';
+import { ragRoutes } from './routes/rag.routes';
 import { usersRoutes } from './routes/sessions.routes';
 import { setupSwagger } from './openapi/setup-swagger';
 
@@ -31,6 +33,8 @@ async function bootstrap() {
     dataSource.getRepository(EventEntity),
   );
 
+  const ragService = new RagService(cfg, dataSource);
+
   const app = express();
   app.use(express.json({ limit: '1mb' }));
 
@@ -44,6 +48,7 @@ async function bootstrap() {
   app.use('/experiments', experimentsRoutes(experimentsService));
   app.use('/users', usersRoutes(experimentsService));
   app.use('/events', eventsRoutes(experimentsService));
+  app.use('/rag', ragRoutes(ragService));
 
 
   app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
@@ -67,6 +72,7 @@ async function bootstrap() {
   });
 
   const shutdown = async () => {
+    await ragService.destroy().catch(() => undefined);
     await dataSource.destroy().catch(() => undefined);
     server.close(() => process.exit(0));
   };

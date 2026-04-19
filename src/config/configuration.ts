@@ -15,7 +15,6 @@ const configuration = () => ({
     },
     
     rag: {
-      tableName: process.env.RAG_TABLE_NAME ?? 'experiment_rag_docs',
       kbTableName: process.env.PROVIZY_KB_TABLE ?? 'provizy_kb_docs',
     },
   });

@@ -1,0 +1,3587 @@
+[
+  {
+    "id": "guide_scope_1",
+    "question": "What does the Provizy Patents user guide explain?",
+    "answer": "It explains how to use the Provisional Patent Generator web application: creating an account, buying credits, adding sources, running analyzation (innovations + prior art), generating a provisional patent draft, and downloading your document.",
+    "pageContent": "Q: What does the Provizy Patents user guide explain?\nA: It explains how to use the Provisional Patent Generator web application: creating an account, buying credits, adding sources, running analyzation (innovations + prior art), generating a provisional patent draft, and downloading your document.",
+    "metadata": {
+      "section": "meta",
+      "intent": "education",
+      "tags": [
+        "overview",
+        "guide"
+      ]
+    }
+  },
+  {
+    "id": "benefits_time_structure_1",
+    "question": "How does the Provisional Patent Generator save time and structure?",
+    "answer": "Instead of starting from a blank document, you move through a clear flow: capture your idea or code, analyze it, then generate a long-form provisional-style draft with standard patent sections such as abstract, detailed description, and claims.",
+    "pageContent": "Q: How does the Provisional Patent Generator save time and structure?\nA: Instead of starting from a blank document, you move through a clear flow: capture your idea or code, analyze it, then generate a long-form provisional-style draft with standard patent sections such as abstract, detailed description, and claims.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "education",
+      "tags": [
+        "workflow",
+        "draft"
+      ]
+    }
+  },
+  {
+    "id": "benefits_flexible_start_1",
+    "question": "What flexible ways can I start using the tool?",
+    "answer": "Use Ideation when you want to talk through the invention in plain language, or Source upload when you already have a project or repository to analyze. Both paths feed the same Analyzation and generation steps.",
+    "pageContent": "Q: What flexible ways can I start using the tool?\nA: Use Ideation when you want to talk through the invention in plain language, or Source upload when you already have a project or repository to analyze. Both paths feed the same Analyzation and generation steps.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "education",
+      "tags": [
+        "ideation",
+        "source_upload"
+      ]
+    }
+  },
+  {
+    "id": "benefits_innovation_prior_art_1",
+    "question": "What does the tool do in one credited analysis step?",
+    "answer": "It extracts innovations from your material and runs prior art research in a single credited analysis step so you can see what might be patentable and what already exists in the landscape before you invest in a full draft.",
+    "pageContent": "Q: What does the tool do in one credited analysis step?\nA: It extracts innovations from your material and runs prior art research in a single credited analysis step so you can see what might be patentable and what already exists in the landscape before you invest in a full draft.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "education",
+      "tags": [
+        "innovations",
+        "prior_art",
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "benefits_draft_depth_1",
+    "question": "What does the generated draft aim to deliver?",
+    "answer": "Generated output is aimed at a transaction-ready level of detail: a lengthy .docx provisional-style application, technical figures (for example system, hardware, flowchart, interface, and data-flow style figures), and a 100-point rubric score to summarize draft quality.",
+    "pageContent": "Q: What does the generated draft aim to deliver?\nA: Generated output is aimed at a transaction-ready level of detail: a lengthy .docx provisional-style application, technical figures (for example system, hardware, flowchart, interface, and data-flow style figures), and a 100-point rubric score to summarize draft quality.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "education",
+      "tags": [
+        "docx",
+        "figures",
+        "rubric"
+      ]
+    }
+  },
+  {
+    "id": "benefits_transparent_spending_1",
+    "question": "How does the app make credit spending transparent?",
+    "answer": "Credits are purchased up front on Profile; before analysis or generation runs, you see a confirmation with the credit cost so you can decide when to spend.",
+    "pageContent": "Q: How does the app make credit spending transparent?\nA: Credits are purchased up front on Profile; before analysis or generation runs, you see a confirmation with the credit cost so you can decide when to spend.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "trust",
+      "tags": [
+        "credits",
+        "confirmation",
+        "profile"
+      ]
+    }
+  },
+  {
+    "id": "benefits_revisit_1",
+    "question": "How can I find and download older generated drafts?",
+    "answer": "Use the Patents page to find past generations and download .docx files again when you need them.",
+    "pageContent": "Q: How can I find and download older generated drafts?\nA: Use the Patents page to find past generations and download .docx files again when you need them.",
+    "metadata": {
+      "section": "benefits",
+      "intent": "navigation",
+      "tags": [
+        "patents",
+        "download"
+      ]
+    }
+  },
+  {
+    "id": "legal_disclaimer_1",
+    "question": "Does this software replace a patent attorney or USPTO procedures?",
+    "answer": "No. This software produces draft documents for your review. It does not replace a patent attorney, filing strategy, or official USPTO procedures. Always have qualified counsel review before you rely on a draft commercially or for filing.",
+    "pageContent": "Q: Does this software replace a patent attorney or USPTO procedures?\nA: No. This software produces draft documents for your review. It does not replace a patent attorney, filing strategy, or official USPTO procedures. Always have qualified counsel review before you rely on a draft commercially or for filing.",
+    "metadata": {
+      "section": "legal",
+      "intent": "trust",
+      "tags": [
+        "disclaimer",
+        "attorney",
+        "USPTO"
+      ]
+    }
+  },
+  {
+    "id": "host_example_1",
+    "question": "What example host does the guide use for full URLs?",
+    "answer": "The product is hosted at https://app.provizypatens.com in the guide’s examples (note the spelling patens).",
+    "pageContent": "Q: What example host does the guide use for full URLs?\nA: The product is hosted at https://app.provizypatens.com in the guide’s examples (note the spelling patens).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "host",
+        "example"
+      ]
+    }
+  },
+  {
+    "id": "host_substitution_1",
+    "question": "What if my DNS uses a different spelling than the example host?",
+    "answer": "If your DNS uses a different spelling (for example provizypatents.com), substitute that host everywhere below when building full URLs from paths.",
+    "pageContent": "Q: What if my DNS uses a different spelling than the example host?\nA: If your DNS uses a different spelling (for example provizypatents.com), substitute that host everywhere below when building full URLs from paths.",
+    "metadata": {
+      "section": "urls",
+      "intent": "edge_case",
+      "tags": [
+        "dns",
+        "host"
+      ]
+    }
+  },
+  {
+    "id": "url_profile_example_1",
+    "question": "What is an example full URL for Profile?",
+    "answer": "https://app.provizypatens.com/profile (substitute your organization’s host if different).",
+    "pageContent": "Q: What is an example full URL for Profile?\nA: https://app.provizypatens.com/profile (substitute your organization’s host if different).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "profile",
+        "full_url"
+      ]
+    }
+  },
+  {
+    "id": "url_analyzation_example_1",
+    "question": "What is an example full URL for Analyzation?",
+    "answer": "https://app.provizypatens.com/analyzation (substitute your organization’s host if different).",
+    "pageContent": "Q: What is an example full URL for Analyzation?\nA: https://app.provizypatens.com/analyzation (substitute your organization’s host if different).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "full_url"
+      ]
+    }
+  },
+  {
+    "id": "signed_out_topbar_1",
+    "question": "What appears in the top bar when I am not signed in?",
+    "answer": "The top bar shows How To Use, Pricing, Contact, Sign In, and Sign Up.",
+    "pageContent": "Q: What appears in the top bar when I am not signed in?\nA: The top bar shows How To Use, Pricing, Contact, Sign In, and Sign Up.",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "topbar",
+        "signed_out"
+      ]
+    }
+  },
+  {
+    "id": "path_home_1",
+    "question": "What URL path is the home landing page?",
+    "answer": "`/`. Click the Patent Drafting Tool title in the top bar, or open the site root.",
+    "pageContent": "Q: What URL path is the home landing page?\nA: `/`. Click the Patent Drafting Tool title in the top bar, or open the site root.",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "home",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_how_to_use_1",
+    "question": "How do I open How To Use from the top bar when signed out?",
+    "answer": "Click How To Use; the path is `/#how-to-use` (same page, scroll down).",
+    "pageContent": "Q: How do I open How To Use from the top bar when signed out?\nA: Click How To Use; the path is `/#how-to-use` (same page, scroll down).",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "anchor",
+        "how_to_use"
+      ]
+    }
+  },
+  {
+    "id": "path_pricing_1",
+    "question": "How do I open Pricing from the top bar when signed out?",
+    "answer": "Click Pricing; the path is `/#pricing` (same page, scroll down).",
+    "pageContent": "Q: How do I open Pricing from the top bar when signed out?\nA: Click Pricing; the path is `/#pricing` (same page, scroll down).",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "anchor",
+        "pricing"
+      ]
+    }
+  },
+  {
+    "id": "path_contact_1",
+    "question": "How do I open Contact from the top bar when signed out?",
+    "answer": "Click Contact; the path is `/#contact` (same page, scroll down).",
+    "pageContent": "Q: How do I open Contact from the top bar when signed out?\nA: Click Contact; the path is `/#contact` (same page, scroll down).",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "anchor",
+        "contact"
+      ]
+    }
+  },
+  {
+    "id": "path_login_1",
+    "question": "What path is Sign In?",
+    "answer": "`/login`. Click Sign In in the top bar or Sign In on the home hero.",
+    "pageContent": "Q: What path is Sign In?\nA: `/login`. Click Sign In in the top bar or Sign In on the home hero.",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "login",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_signup_1",
+    "question": "What path is Sign Up?",
+    "answer": "`/signup`. Click Sign Up in the top bar or Sign Up on the home hero.",
+    "pageContent": "Q: What path is Sign Up?\nA: `/signup`. Click Sign Up in the top bar or Sign Up on the home hero.",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "signup",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "home_hero_auth_1",
+    "question": "Besides the top bar, where can I sign up or sign in from the home page?",
+    "answer": "On `/`, you can also use the large Sign Up and Sign In buttons in the hero section.",
+    "pageContent": "Q: Besides the top bar, where can I sign up or sign in from the home page?\nA: On `/`, you can also use the large Sign Up and Sign In buttons in the hero section.",
+    "metadata": {
+      "section": "urls_signed_out",
+      "intent": "navigation",
+      "tags": [
+        "hero",
+        "auth"
+      ]
+    }
+  },
+  {
+    "id": "signed_in_topbar_1",
+    "question": "What appears in the top bar when I am signed in?",
+    "answer": "The top bar shows Ideation, Source Upload, Analyzation, Patents, Profile, and Sign Out.",
+    "pageContent": "Q: What appears in the top bar when I am signed in?\nA: The top bar shows Ideation, Source Upload, Analyzation, Patents, Profile, and Sign Out.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "topbar",
+        "signed_in"
+      ]
+    }
+  },
+  {
+    "id": "path_ideation_1",
+    "question": "What path opens Ideation?",
+    "answer": "`/ideation`. Click Ideation in the top bar, or Ideation Chat on the home hero.",
+    "pageContent": "Q: What path opens Ideation?\nA: `/ideation`. Click Ideation in the top bar, or Ideation Chat on the home hero.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "ideation",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_source_upload_1",
+    "question": "What path opens Source upload?",
+    "answer": "`/source_upload`. Click Source Upload in the top bar, or Upload Source on the home hero.",
+    "pageContent": "Q: What path opens Source upload?\nA: `/source_upload`. Click Source Upload in the top bar, or Upload Source on the home hero.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "source_upload",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_analyzation_1",
+    "question": "What path opens Analyzation?",
+    "answer": "`/analyzation`. Click Analyzation in the top bar.",
+    "pageContent": "Q: What path opens Analyzation?\nA: `/analyzation`. Click Analyzation in the top bar.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_analyzation_sourceid_1",
+    "question": "How do I open Analyzation with a source pre-selected?",
+    "answer": "Use `/analyzation?sourceId=NUMBER`, replacing NUMBER with your source ID. This may open for you after some flows (for example after submitting an ideation summary).",
+    "pageContent": "Q: How do I open Analyzation with a source pre-selected?\nA: Use `/analyzation?sourceId=NUMBER`, replacing NUMBER with your source ID. This may open for you after some flows (for example after submitting an ideation summary).",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId"
+      ]
+    }
+  },
+  {
+    "id": "path_patents_1",
+    "question": "What path opens Patents?",
+    "answer": "`/patents`. Click Patents in the top bar.",
+    "pageContent": "Q: What path opens Patents?\nA: `/patents`. Click Patents in the top bar.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "patents",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "path_profile_1",
+    "question": "What path opens Profile?",
+    "answer": "`/profile`. Click Profile in the top bar (credits, purchases, GitHub token).",
+    "pageContent": "Q: What path opens Profile?\nA: `/profile`. Click Profile in the top bar (credits, purchases, GitHub token).",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "profile",
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "sign_out_behavior_1",
+    "question": "What happens after I click Sign Out?",
+    "answer": "You stay in the app but must sign in again for protected pages.",
+    "pageContent": "Q: What happens after I click Sign Out?\nA: You stay in the app but must sign in again for protected pages.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "sign_out"
+      ]
+    }
+  },
+  {
+    "id": "topbar_hidden_login_signup_1",
+    "question": "Why is the top bar hidden on login and signup pages?",
+    "answer": "The top bar is hidden on `/login` and `/signup` so those pages stay simple. Use browser Back or type `/` in the address bar to return to the home page.",
+    "pageContent": "Q: Why is the top bar hidden on login and signup pages?\nA: The top bar is hidden on `/login` and `/signup` so those pages stay simple. Use browser Back or type `/` in the address bar to return to the home page.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "ux",
+      "tags": [
+        "topbar",
+        "login",
+        "signup"
+      ]
+    }
+  },
+  {
+    "id": "tool_three_steps_1",
+    "question": "What three things does the application help you do?",
+    "answer": "Bring in invention-related material as a source (uploaded project, GitHub repo, or ideation summary); analyze that source to extract innovations and run prior art research (uses credits); generate a provisional patent application draft as a .docx file (uses credits).",
+    "pageContent": "Q: What three things does the application help you do?\nA: Bring in invention-related material as a source (uploaded project, GitHub repo, or ideation summary); analyze that source to extract innovations and run prior art research (uses credits); generate a provisional patent application draft as a .docx file (uses credits).",
+    "metadata": {
+      "section": "overview",
+      "intent": "education",
+      "tags": [
+        "workflow",
+        "overview"
+      ]
+    }
+  },
+  {
+    "id": "tool_credits_confirm_1",
+    "question": "Where do I buy credits and where do I confirm paid steps?",
+    "answer": "You buy credits on Profile, then confirm each paid step on Analyzation.",
+    "pageContent": "Q: Where do I buy credits and where do I confirm paid steps?\nA: You buy credits on Profile, then confirm each paid step on Analyzation.",
+    "metadata": {
+      "section": "overview",
+      "intent": "education",
+      "tags": [
+        "credits",
+        "profile",
+        "analyzation"
+      ]
+    }
+  },
+  {
+    "id": "qs_1",
+    "question": "Quick start step 1: accounts",
+    "answer": "Open `/signup` and create an account (or `/login` if you already have one).",
+    "pageContent": "Q: Quick start step 1: accounts\nA: Open `/signup` and create an account (or `/login` if you already have one).",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "signup",
+        "login"
+      ]
+    }
+  },
+  {
+    "id": "qs_2",
+    "question": "Quick start step 2: credits",
+    "answer": "Open `/profile` and buy credits (see Buying credits).",
+    "pageContent": "Q: Quick start step 2: credits\nA: Open `/profile` and buy credits (see Buying credits).",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "credits",
+        "profile"
+      ]
+    }
+  },
+  {
+    "id": "qs_3",
+    "question": "Quick start step 3: sources",
+    "answer": "Open `/source_upload` or `/ideation` and create at least one source.",
+    "pageContent": "Q: Quick start step 3: sources\nA: Open `/source_upload` or `/ideation` and create at least one source.",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "source"
+      ]
+    }
+  },
+  {
+    "id": "qs_4",
+    "question": "Quick start step 4: analysis",
+    "answer": "Open `/analyzation`, select that source, run Extract innovations & prior art research, and confirm when asked.",
+    "pageContent": "Q: Quick start step 4: analysis\nA: Open `/analyzation`, select that source, run Extract innovations & prior art research, and confirm when asked.",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "analyzation"
+      ]
+    }
+  },
+  {
+    "id": "qs_5",
+    "question": "Quick start step 5: generate",
+    "answer": "On `/analyzation`, click Generate, confirm when asked, and wait for completion.",
+    "pageContent": "Q: Quick start step 5: generate\nA: On `/analyzation`, click Generate, confirm when asked, and wait for completion.",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "generate"
+      ]
+    }
+  },
+  {
+    "id": "qs_6",
+    "question": "Quick start step 6: download",
+    "answer": "Download the .docx from the card on `/analyzation`, or open `/patents` to find it later.",
+    "pageContent": "Q: Quick start step 6: download\nA: Download the .docx from the card on `/analyzation`, or open `/patents` to find it later.",
+    "metadata": {
+      "section": "quick_start",
+      "intent": "onboarding",
+      "tags": [
+        "download",
+        "patents"
+      ]
+    }
+  },
+  {
+    "id": "acct_signup",
+    "question": "How do I create an account?",
+    "answer": "Use `/signup` to create an account with your email and password.",
+    "pageContent": "Q: How do I create an account?\nA: Use `/signup` to create an account with your email and password.",
+    "metadata": {
+      "section": "account",
+      "intent": "action",
+      "tags": [
+        "signup"
+      ]
+    }
+  },
+  {
+    "id": "acct_login",
+    "question": "How do I sign in when I return?",
+    "answer": "Use `/login`.",
+    "pageContent": "Q: How do I sign in when I return?\nA: Use `/login`.",
+    "metadata": {
+      "section": "account",
+      "intent": "action",
+      "tags": [
+        "login"
+      ]
+    }
+  },
+  {
+    "id": "profile_balance",
+    "question": "What can I do with credits on Profile?",
+    "answer": "See your credit balance and buy more credits.",
+    "pageContent": "Q: What can I do with credits on Profile?\nA: See your credit balance and buy more credits.",
+    "metadata": {
+      "section": "account",
+      "intent": "navigation",
+      "tags": [
+        "credits",
+        "profile"
+      ]
+    }
+  },
+  {
+    "id": "profile_tx",
+    "question": "What transaction information is on Profile?",
+    "answer": "See transaction history (purchases and redemptions).",
+    "pageContent": "Q: What transaction information is on Profile?\nA: See transaction history (purchases and redemptions).",
+    "metadata": {
+      "section": "account",
+      "intent": "navigation",
+      "tags": [
+        "transactions"
+      ]
+    }
+  },
+  {
+    "id": "profile_github",
+    "question": "Why save a GitHub token on Profile?",
+    "answer": "Save an optional GitHub token if you use GitHub uploads for private repositories. After saving, the app does not show your token again.",
+    "pageContent": "Q: Why save a GitHub token on Profile?\nA: Save an optional GitHub token if you use GitHub uploads for private repositories. After saving, the app does not show your token again.",
+    "metadata": {
+      "section": "account",
+      "intent": "action",
+      "tags": [
+        "github",
+        "token"
+      ]
+    }
+  },
+  {
+    "id": "price_analysis",
+    "question": "How many credits does analysis cost?",
+    "answer": "Extract innovations & prior art research costs 0.33 credits for one run on Analyzation and returns innovations from your source, then prior art search results.",
+    "pageContent": "Q: How many credits does analysis cost?\nA: Extract innovations & prior art research costs 0.33 credits for one run on Analyzation and returns innovations from your source, then prior art search results.",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "analysis",
+        "0.33"
+      ]
+    }
+  },
+  {
+    "id": "price_generate",
+    "question": "How many credits does draft generation cost?",
+    "answer": "Provisional patent draft generation costs 0.67 credits and returns a .docx provisional-style draft with scoring and storage.",
+    "pageContent": "Q: How many credits does draft generation cost?\nA: Provisional patent draft generation costs 0.67 credits and returns a .docx provisional-style draft with scoring and storage.",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "generate",
+        "0.67"
+      ]
+    }
+  },
+  {
+    "id": "price_full",
+    "question": "How many credits is a full workflow?",
+    "answer": "A full workflow (analysis + one draft) totals 1.0 credits (0.33 + 0.67) for one complete pass on a source.",
+    "pageContent": "Q: How many credits is a full workflow?\nA: A full workflow (analysis + one draft) totals 1.0 credits (0.33 + 0.67) for one complete pass on a source.",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "full_workflow",
+        "1.0"
+      ]
+    }
+  },
+  {
+    "id": "pkg_starter",
+    "question": "What is Starter?",
+    "answer": "Starter costs $249 for 1 credit (about $249.00 per credit).",
+    "pageContent": "Q: What is Starter?\nA: Starter costs $249 for 1 credit (about $249.00 per credit).",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "starter"
+      ],
+      "plan": "starter"
+    }
+  },
+  {
+    "id": "pkg_growth",
+    "question": "What is Growth?",
+    "answer": "Growth costs $697 for 3 credits (about $232.33 per credit) and is labeled about 7% off on Profile.",
+    "pageContent": "Q: What is Growth?\nA: Growth costs $697 for 3 credits (about $232.33 per credit) and is labeled about 7% off on Profile.",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "growth"
+      ],
+      "plan": "growth"
+    }
+  },
+  {
+    "id": "pkg_pro",
+    "question": "What is Pro?",
+    "answer": "Pro costs $1,497 for 8 credits (about $187.13 per credit) and is labeled about 25% off on Profile.",
+    "pageContent": "Q: What is Pro?\nA: Pro costs $1,497 for 8 credits (about $187.13 per credit) and is labeled about 25% off on Profile.",
+    "metadata": {
+      "section": "credits",
+      "intent": "pricing",
+      "tags": [
+        "pro"
+      ],
+      "plan": "pro"
+    }
+  },
+  {
+    "id": "credits_mix_3full",
+    "question": "Example: spending 3 credits on full workflows",
+    "answer": "You could use 3 full workflows (analysis + draft each time).",
+    "pageContent": "Q: Example: spending 3 credits on full workflows\nA: You could use 3 full workflows (analysis + draft each time).",
+    "metadata": {
+      "section": "credits",
+      "intent": "education",
+      "tags": [
+        "example"
+      ]
+    }
+  },
+  {
+    "id": "credits_mix_2full_3a",
+    "question": "Example: 2 full workflows + 3 analysis runs (~3 credits)",
+    "answer": "Two full workflows plus three analysis-only runs: 2 × 1.0 + 3 × 0.33 ≈ 3 credits.",
+    "pageContent": "Q: Example: 2 full workflows + 3 analysis runs (~3 credits)\nA: Two full workflows plus three analysis-only runs: 2 × 1.0 + 3 × 0.33 ≈ 3 credits.",
+    "metadata": {
+      "section": "credits",
+      "intent": "education",
+      "tags": [
+        "example"
+      ]
+    }
+  },
+  {
+    "id": "credits_mix_9a",
+    "question": "Example: analysis-only runs in ~3 credits",
+    "answer": "About nine analysis-only runs: 9 × 0.33 ≈ 3 credits.",
+    "pageContent": "Q: Example: analysis-only runs in ~3 credits\nA: About nine analysis-only runs: 9 × 0.33 ≈ 3 credits.",
+    "metadata": {
+      "section": "credits",
+      "intent": "education",
+      "tags": [
+        "example"
+      ]
+    }
+  },
+  {
+    "id": "credits_mix_rule",
+    "question": "Can I mix paid steps?",
+    "answer": "Yes—mix steps as long as the total fits your balance.",
+    "pageContent": "Q: Can I mix paid steps?\nA: Yes—mix steps as long as the total fits your balance.",
+    "metadata": {
+      "section": "credits",
+      "intent": "education",
+      "tags": [
+        "flexibility"
+      ]
+    }
+  },
+  {
+    "id": "low_balance",
+    "question": "What if my balance is too low?",
+    "answer": "The app tells you and sends you to `/profile` to buy more credits.",
+    "pageContent": "Q: What if my balance is too low?\nA: The app tells you and sends you to `/profile` to buy more credits.",
+    "metadata": {
+      "section": "credits",
+      "intent": "edge_case",
+      "tags": [
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": "buy_1",
+    "question": "Buying credits: step 1",
+    "answer": "Go to `/profile`.",
+    "pageContent": "Q: Buying credits: step 1\nA: Go to `/profile`.",
+    "metadata": {
+      "section": "buying_credits",
+      "intent": "action",
+      "tags": [
+        "profile"
+      ]
+    }
+  },
+  {
+    "id": "buy_2",
+    "question": "Buying credits: step 2",
+    "answer": "Under Credits, pick Starter, Growth, or Pro and click Buy.",
+    "pageContent": "Q: Buying credits: step 2\nA: Under Credits, pick Starter, Growth, or Pro and click Buy.",
+    "metadata": {
+      "section": "buying_credits",
+      "intent": "action",
+      "tags": [
+        "packages"
+      ]
+    }
+  },
+  {
+    "id": "buy_3",
+    "question": "Buying credits: step 3",
+    "answer": "Complete payment on Stripe’s checkout page (test environments may use a test card such as 4242 4242 4242 4242).",
+    "pageContent": "Q: Buying credits: step 3\nA: Complete payment on Stripe’s checkout page (test environments may use a test card such as 4242 4242 4242 4242).",
+    "metadata": {
+      "section": "buying_credits",
+      "intent": "transaction",
+      "tags": [
+        "stripe"
+      ]
+    }
+  },
+  {
+    "id": "buy_4",
+    "question": "Buying credits: after payment",
+    "answer": "The browser usually returns to `/profile?checkout=success`; balance and transaction history should update (refresh once if needed).",
+    "pageContent": "Q: Buying credits: after payment\nA: The browser usually returns to `/profile?checkout=success`; balance and transaction history should update (refresh once if needed).",
+    "metadata": {
+      "section": "buying_credits",
+      "intent": "navigation",
+      "tags": [
+        "checkout"
+      ]
+    }
+  },
+  {
+    "id": "src_def",
+    "question": "What is a source?",
+    "answer": "A source is one unit of input—one row in the Sources table on `/analyzation`.",
+    "pageContent": "Q: What is a source?\nA: A source is one unit of input—one row in the Sources table on `/analyzation`.",
+    "metadata": {
+      "section": "sources",
+      "intent": "education",
+      "tags": [
+        "definition"
+      ]
+    }
+  },
+  {
+    "id": "src_zip",
+    "question": "How do I upload a local project?",
+    "answer": "On `/source_upload`, use Local / ZIP to upload a zip or project archive.",
+    "pageContent": "Q: How do I upload a local project?\nA: On `/source_upload`, use Local / ZIP to upload a zip or project archive.",
+    "metadata": {
+      "section": "sources",
+      "intent": "action",
+      "tags": [
+        "upload"
+      ]
+    }
+  },
+  {
+    "id": "src_github",
+    "question": "How do I add GitHub as a source?",
+    "answer": "Paste a repository URL on `/source_upload`.",
+    "pageContent": "Q: How do I add GitHub as a source?\nA: Paste a repository URL on `/source_upload`.",
+    "metadata": {
+      "section": "sources",
+      "intent": "action",
+      "tags": [
+        "github"
+      ]
+    }
+  },
+  {
+    "id": "src_private",
+    "question": "Private GitHub repos: prerequisite",
+    "answer": "Set your GitHub token on `/profile` first.",
+    "pageContent": "Q: Private GitHub repos: prerequisite\nA: Set your GitHub token on `/profile` first.",
+    "metadata": {
+      "section": "sources",
+      "intent": "prerequisite",
+      "tags": [
+        "github",
+        "private"
+      ]
+    }
+  },
+  {
+    "id": "src_admin",
+    "question": "Why might upload options differ?",
+    "answer": "Other upload options your administrator enabled appear on the same page.",
+    "pageContent": "Q: Why might upload options differ?\nA: Other upload options your administrator enabled appear on the same page.",
+    "metadata": {
+      "section": "sources",
+      "intent": "edge_case",
+      "tags": [
+        "admin"
+      ]
+    }
+  },
+  {
+    "id": "src_tip",
+    "question": "Source quality tip",
+    "answer": "Clear, focused material usually produces better results than a very large mixed folder.",
+    "pageContent": "Q: Source quality tip\nA: Clear, focused material usually produces better results than a very large mixed folder.",
+    "metadata": {
+      "section": "sources",
+      "intent": "best_practice",
+      "tags": [
+        "quality"
+      ]
+    }
+  },
+  {
+    "id": "src_select",
+    "question": "After uploading, what must I do?",
+    "answer": "Go to `/analyzation` and select the new source with the radio button before running analysis.",
+    "pageContent": "Q: After uploading, what must I do?\nA: Go to `/analyzation` and select the new source with the radio button before running analysis.",
+    "metadata": {
+      "section": "sources",
+      "intent": "action",
+      "tags": [
+        "select"
+      ]
+    }
+  },
+  {
+    "id": "ide_path",
+    "question": "Ideation URL",
+    "answer": "`/ideation`.",
+    "pageContent": "Q: Ideation URL\nA: `/ideation`.",
+    "metadata": {
+      "section": "ideation",
+      "intent": "navigation",
+      "tags": [
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "ide_purpose",
+    "question": "What is Ideation?",
+    "answer": "Talk through your invention with the assistant, then submit a summary as a source (ideation type).",
+    "pageContent": "Q: What is Ideation?\nA: Talk through your invention with the assistant, then submit a summary as a source (ideation type).",
+    "metadata": {
+      "section": "ideation",
+      "intent": "education",
+      "tags": [
+        "chat"
+      ]
+    }
+  },
+  {
+    "id": "ide_s1",
+    "question": "Ideation typical step 1",
+    "answer": "Open `/ideation` from the top bar or home hero.",
+    "pageContent": "Q: Ideation typical step 1\nA: Open `/ideation` from the top bar or home hero.",
+    "metadata": {
+      "section": "ideation",
+      "intent": "onboarding",
+      "tags": [
+        "open"
+      ]
+    }
+  },
+  {
+    "id": "ide_s2",
+    "question": "Ideation typical step 2",
+    "answer": "Chat until ready, then summarize and submit (button wording may vary by version).",
+    "pageContent": "Q: Ideation typical step 2\nA: Chat until ready, then summarize and submit (button wording may vary by version).",
+    "metadata": {
+      "section": "ideation",
+      "intent": "action",
+      "tags": [
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "ide_s3",
+    "question": "Ideation typical step 3",
+    "answer": "You may be sent to `/analyzation?sourceId=...` with that source already selected.",
+    "pageContent": "Q: Ideation typical step 3\nA: You may be sent to `/analyzation?sourceId=...` with that source already selected.",
+    "metadata": {
+      "section": "ideation",
+      "intent": "navigation",
+      "tags": [
+        "redirect"
+      ]
+    }
+  },
+  {
+    "id": "ide_next",
+    "question": "After Ideation, what next?",
+    "answer": "Continue with Analyzation (innovations + prior art).",
+    "pageContent": "Q: After Ideation, what next?\nA: Continue with Analyzation (innovations + prior art).",
+    "metadata": {
+      "section": "ideation",
+      "intent": "onboarding",
+      "tags": [
+        "next"
+      ]
+    }
+  },
+  {
+    "id": "an_path",
+    "question": "Analyzation URL",
+    "answer": "`/analyzation` (optional `?sourceId=`).",
+    "pageContent": "Q: Analyzation URL\nA: `/analyzation` (optional `?sourceId=`).",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "navigation",
+      "tags": [
+        "path"
+      ]
+    }
+  },
+  {
+    "id": "an_caps",
+    "question": "What can I do on Analyzation?",
+    "answer": "See sources in a table; run Extract innovations & prior art research; review Innovations and Prior arts; click Generate.",
+    "pageContent": "Q: What can I do on Analyzation?\nA: See sources in a table; run Extract innovations & prior art research; review Innovations and Prior arts; click Generate.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "education",
+      "tags": [
+        "features"
+      ]
+    }
+  },
+  {
+    "id": "an_s1",
+    "question": "Analyzation step 1",
+    "answer": "Open `/analyzation`.",
+    "pageContent": "Q: Analyzation step 1\nA: Open `/analyzation`.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "action",
+      "tags": [
+        "steps"
+      ]
+    }
+  },
+  {
+    "id": "an_s2",
+    "question": "Analyzation step 2",
+    "answer": "Select one source with the radio button.",
+    "pageContent": "Q: Analyzation step 2\nA: Select one source with the radio button.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "action",
+      "tags": [
+        "select"
+      ]
+    }
+  },
+  {
+    "id": "an_s3",
+    "question": "Analyzation step 3",
+    "answer": "Click Extract innovations & prior art research.",
+    "pageContent": "Q: Analyzation step 3\nA: Click Extract innovations & prior art research.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "action",
+      "tags": [
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "an_s4",
+    "question": "Analyzation step 4",
+    "answer": "Confirm: credit cost is 0.33; click Confirm.",
+    "pageContent": "Q: Analyzation step 4\nA: Confirm: credit cost is 0.33; click Confirm.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "action",
+      "tags": [
+        "confirm"
+      ]
+    }
+  },
+  {
+    "id": "an_low",
+    "question": "Not enough credits for analysis?",
+    "answer": "Go to `/profile` to buy more credits.",
+    "pageContent": "Q: Not enough credits for analysis?\nA: Go to `/profile` to buy more credits.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "edge_case",
+      "tags": [
+        "credits"
+      ]
+    }
+  },
+  {
+    "id": "an_done",
+    "question": "When analysis completes",
+    "answer": "Innovations and Prior arts fill in on the page.",
+    "pageContent": "Q: When analysis completes\nA: Innovations and Prior arts fill in on the page.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "education",
+      "tags": [
+        "results"
+      ]
+    }
+  },
+  {
+    "id": "an_none",
+    "question": "If no innovations are found",
+    "answer": "Prior art may not run; you’ll see a short message explaining no usable innovations were extracted.",
+    "pageContent": "Q: If no innovations are found\nA: Prior art may not run; you’ll see a short message explaining no usable innovations were extracted.",
+    "metadata": {
+      "section": "analyzation",
+      "intent": "edge_case",
+      "tags": [
+        "no_innovations"
+      ]
+    }
+  },
+  {
+    "id": "gen_where",
+    "question": "Where is Generate?",
+    "answer": "On `/analyzation` after successful analysis.",
+    "pageContent": "Q: Where is Generate?\nA: On `/analyzation` after successful analysis.",
+    "metadata": {
+      "section": "generation",
+      "intent": "navigation",
+      "tags": [
+        "analyzation"
+      ]
+    }
+  },
+  {
+    "id": "gen_need",
+    "question": "Prerequisites before Generate",
+    "answer": "Selected source and innovations from analysis.",
+    "pageContent": "Q: Prerequisites before Generate\nA: Selected source and innovations from analysis.",
+    "metadata": {
+      "section": "generation",
+      "intent": "prerequisite",
+      "tags": [
+        "innovations"
+      ]
+    }
+  },
+  {
+    "id": "gen_s1",
+    "question": "Generate step 1",
+    "answer": "Click Generate.",
+    "pageContent": "Q: Generate step 1\nA: Click Generate.",
+    "metadata": {
+      "section": "generation",
+      "intent": "action",
+      "tags": [
+        "generate"
+      ]
+    }
+  },
+  {
+    "id": "gen_s2",
+    "question": "Generate confirmation credits",
+    "answer": "Draft generation costs 0.67 credits; full workflow is 1.0 credit including analysis.",
+    "pageContent": "Q: Generate confirmation credits\nA: Draft generation costs 0.67 credits; full workflow is 1.0 credit including analysis.",
+    "metadata": {
+      "section": "generation",
+      "intent": "pricing",
+      "tags": [
+        "0.67"
+      ]
+    }
+  },
+  {
+    "id": "gen_wait",
+    "question": "How long can generation take?",
+    "answer": "Many minutes; keep the tab open if you can.",
+    "pageContent": "Q: How long can generation take?\nA: Many minutes; keep the tab open if you can.",
+    "metadata": {
+      "section": "generation",
+      "intent": "expectations",
+      "tags": [
+        "wait"
+      ]
+    }
+  },
+  {
+    "id": "gen_err",
+    "question": "If generation fails",
+    "answer": "Read the message; check `/profile` transaction history.",
+    "pageContent": "Q: If generation fails\nA: Read the message; check `/profile` transaction history.",
+    "metadata": {
+      "section": "generation",
+      "intent": "troubleshooting",
+      "tags": [
+        "errors"
+      ]
+    }
+  },
+  {
+    "id": "pat_purpose",
+    "question": "What is `/patents`?",
+    "answer": "See sources with generated patents and download .docx when controls appear.",
+    "pageContent": "Q: What is `/patents`?\nA: See sources with generated patents and download .docx when controls appear.",
+    "metadata": {
+      "section": "patents",
+      "intent": "education",
+      "tags": [
+        "library"
+      ]
+    }
+  },
+  {
+    "id": "pat_when",
+    "question": "When use Patents vs Analyzation?",
+    "answer": "Find an older draft without returning to `/analyzation`.",
+    "pageContent": "Q: When use Patents vs Analyzation?\nA: Find an older draft without returning to `/analyzation`.",
+    "metadata": {
+      "section": "patents",
+      "intent": "navigation",
+      "tags": [
+        "history"
+      ]
+    }
+  },
+  {
+    "id": "dl_card",
+    "question": "Download from Analyzation",
+    "answer": "After generation, a card shows title and score; click Download .docx.",
+    "pageContent": "Q: Download from Analyzation\nA: After generation, a card shows title and score; click Download .docx.",
+    "metadata": {
+      "section": "download",
+      "intent": "action",
+      "tags": [
+        "docx"
+      ]
+    }
+  },
+  {
+    "id": "tx_balance_loc",
+    "question": "Where is balance on Profile?",
+    "answer": "Top of the Credits section.",
+    "pageContent": "Q: Where is balance on Profile?\nA: Top of the Credits section.",
+    "metadata": {
+      "section": "profile",
+      "intent": "navigation",
+      "tags": [
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": "tx_hist",
+    "question": "What is transaction history?",
+    "answer": "Purchases and spending (and refunds when they occur), with dates and descriptions.",
+    "pageContent": "Q: What is transaction history?\nA: Purchases and spending (and refunds when they occur), with dates and descriptions.",
+    "metadata": {
+      "section": "profile",
+      "intent": "education",
+      "tags": [
+        "transactions"
+      ]
+    }
+  },
+  {
+    "id": "sec_pw",
+    "question": "Password guidance",
+    "answer": "Keep your password private.",
+    "pageContent": "Q: Password guidance\nA: Keep your password private.",
+    "metadata": {
+      "section": "security",
+      "intent": "trust",
+      "tags": [
+        "password"
+      ]
+    }
+  },
+  {
+    "id": "sec_gh",
+    "question": "GitHub token guidance",
+    "answer": "Only paste tokens you’re allowed to use; treat like a password.",
+    "pageContent": "Q: GitHub token guidance\nA: Only paste tokens you’re allowed to use; treat like a password.",
+    "metadata": {
+      "section": "security",
+      "intent": "trust",
+      "tags": [
+        "token"
+      ]
+    }
+  },
+  {
+    "id": "sec_stripe",
+    "question": "Where are card numbers entered?",
+    "answer": "Stripe’s checkout page—not the app’s own forms.",
+    "pageContent": "Q: Where are card numbers entered?\nA: Stripe’s checkout page—not the app’s own forms.",
+    "metadata": {
+      "section": "security",
+      "intent": "trust",
+      "tags": [
+        "stripe"
+      ]
+    }
+  },
+  {
+    "id": "g_source",
+    "question": "Glossary: Source",
+    "answer": "One input (upload, repo, or ideation summary) tied to your account.",
+    "pageContent": "Q: Glossary: Source\nA: One input (upload, repo, or ideation summary) tied to your account.",
+    "metadata": {
+      "section": "glossary",
+      "intent": "education",
+      "tags": [
+        "source"
+      ]
+    }
+  },
+  {
+    "id": "g_an",
+    "question": "Glossary: Analyzation",
+    "answer": "Page where you pick a source, run analysis, and generate a draft.",
+    "pageContent": "Q: Glossary: Analyzation\nA: Page where you pick a source, run analysis, and generate a draft.",
+    "metadata": {
+      "section": "glossary",
+      "intent": "education",
+      "tags": [
+        "analyzation"
+      ]
+    }
+  },
+  {
+    "id": "g_credits",
+    "question": "Glossary: Credits",
+    "answer": "Prepaid units used when you confirm analysis or generation.",
+    "pageContent": "Q: Glossary: Credits\nA: Prepaid units used when you confirm analysis or generation.",
+    "metadata": {
+      "section": "glossary",
+      "intent": "education",
+      "tags": [
+        "credits"
+      ]
+    }
+  },
+  {
+    "id": "g_stripe",
+    "question": "Glossary: Stripe Checkout",
+    "answer": "Stripe’s hosted payment screen for completing a credit purchase.",
+    "pageContent": "Q: Glossary: Stripe Checkout\nA: Stripe’s hosted payment screen for completing a credit purchase.",
+    "metadata": {
+      "section": "glossary",
+      "intent": "education",
+      "tags": [
+        "stripe"
+      ]
+    }
+  },
+  {
+    "id": "g_prov",
+    "question": "Glossary: Provisional patent",
+    "answer": "A draft document in provisional style; legal review and filing decisions are yours.",
+    "pageContent": "Q: Glossary: Provisional patent\nA: A draft document in provisional style; legal review and filing decisions are yours.",
+    "metadata": {
+      "section": "glossary",
+      "intent": "education",
+      "tags": [
+        "provisional"
+      ]
+    }
+  },
+  {
+    "id": "org_custom",
+    "question": "Can branding, uploads, or payment mode differ?",
+    "answer": "Your organization may customize branding, which upload types are visible, and payment test vs live behavior.",
+    "pageContent": "Q: Can branding, uploads, or payment mode differ?\nA: Your organization may customize branding, which upload types are visible, and payment test vs live behavior.",
+    "metadata": {
+      "section": "meta",
+      "intent": "education",
+      "tags": [
+        "customization"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_000",
+    "question": "What path should I use for home (landing)?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for home (landing)?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_001",
+    "question": "Which URL path opens How To Use (home anchor)?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens How To Use (home anchor)?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_002",
+    "question": "How do I navigate to Pricing (home anchor) using app paths?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Pricing (home anchor) using app paths?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_003",
+    "question": "In the guide’s routing table, what is the path for Contact (home anchor)?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Contact (home anchor)?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_004",
+    "question": "What is the correct path string for Sign In?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Sign In?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_005",
+    "question": "What path should I use for Sign Up?",
+    "answer": "The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Sign Up?\nA: The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "signup",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_006",
+    "question": "Which URL path opens Ideation (chat)?",
+    "answer": "The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Ideation (chat)?\nA: The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "ideation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_007",
+    "question": "How do I navigate to Source upload using app paths?",
+    "answer": "The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Source upload using app paths?\nA: The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "source_upload",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_008",
+    "question": "In the guide’s routing table, what is the path for Analyzation?",
+    "answer": "The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Analyzation?\nA: The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_009",
+    "question": "What is the correct path string for Analyzation with a source pre-selected?",
+    "answer": "The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Analyzation with a source pre-selected?\nA: The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation_query",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_010",
+    "question": "What path should I use for Patents?",
+    "answer": "The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Patents?\nA: The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "patents",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_011",
+    "question": "Which URL path opens Profile?",
+    "answer": "The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Profile?\nA: The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_012",
+    "question": "How do I navigate to Profile after successful Stripe checkout (common return URL) using app paths?",
+    "answer": "The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Profile after successful Stripe checkout (common return URL) using app paths?\nA: The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile_checkout_success",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_013",
+    "question": "In the guide’s routing table, what is the path for home (landing)?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for home (landing)?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_014",
+    "question": "What is the correct path string for How To Use (home anchor)?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for How To Use (home anchor)?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_015",
+    "question": "What path should I use for Pricing (home anchor)?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Pricing (home anchor)?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_016",
+    "question": "Which URL path opens Contact (home anchor)?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Contact (home anchor)?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_017",
+    "question": "How do I navigate to Sign In using app paths?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Sign In using app paths?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_018",
+    "question": "In the guide’s routing table, what is the path for Sign Up?",
+    "answer": "The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Sign Up?\nA: The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "signup",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_019",
+    "question": "What is the correct path string for Ideation (chat)?",
+    "answer": "The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Ideation (chat)?\nA: The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "ideation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_020",
+    "question": "What path should I use for Source upload?",
+    "answer": "The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Source upload?\nA: The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "source_upload",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_021",
+    "question": "Which URL path opens Analyzation?",
+    "answer": "The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Analyzation?\nA: The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_022",
+    "question": "How do I navigate to Analyzation with a source pre-selected using app paths?",
+    "answer": "The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Analyzation with a source pre-selected using app paths?\nA: The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation_query",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_023",
+    "question": "In the guide’s routing table, what is the path for Patents?",
+    "answer": "The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Patents?\nA: The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "patents",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_024",
+    "question": "What is the correct path string for Profile?",
+    "answer": "The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Profile?\nA: The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_025",
+    "question": "What path should I use for Profile after successful Stripe checkout (common return URL)?",
+    "answer": "The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Profile after successful Stripe checkout (common return URL)?\nA: The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile_checkout_success",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_026",
+    "question": "Which URL path opens home (landing)?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens home (landing)?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_027",
+    "question": "How do I navigate to How To Use (home anchor) using app paths?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to How To Use (home anchor) using app paths?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_028",
+    "question": "In the guide’s routing table, what is the path for Pricing (home anchor)?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Pricing (home anchor)?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_029",
+    "question": "What is the correct path string for Contact (home anchor)?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Contact (home anchor)?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_030",
+    "question": "What path should I use for Sign In?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Sign In?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_031",
+    "question": "Which URL path opens Sign Up?",
+    "answer": "The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Sign Up?\nA: The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "signup",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_032",
+    "question": "How do I navigate to Ideation (chat) using app paths?",
+    "answer": "The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Ideation (chat) using app paths?\nA: The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "ideation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_033",
+    "question": "In the guide’s routing table, what is the path for Source upload?",
+    "answer": "The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Source upload?\nA: The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "source_upload",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_034",
+    "question": "What is the correct path string for Analyzation?",
+    "answer": "The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Analyzation?\nA: The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_035",
+    "question": "What path should I use for Analyzation with a source pre-selected?",
+    "answer": "The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Analyzation with a source pre-selected?\nA: The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation_query",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_036",
+    "question": "Which URL path opens Patents?",
+    "answer": "The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Patents?\nA: The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "patents",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_037",
+    "question": "How do I navigate to Profile using app paths?",
+    "answer": "The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Profile using app paths?\nA: The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_038",
+    "question": "In the guide’s routing table, what is the path for Profile after successful Stripe checkout (common return URL)?",
+    "answer": "The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Profile after successful Stripe checkout (common return URL)?\nA: The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile_checkout_success",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_039",
+    "question": "What is the correct path string for home (landing)?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for home (landing)?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_040",
+    "question": "What path should I use for How To Use (home anchor)?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for How To Use (home anchor)?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_041",
+    "question": "Which URL path opens Pricing (home anchor)?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Pricing (home anchor)?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_042",
+    "question": "How do I navigate to Contact (home anchor) using app paths?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Contact (home anchor) using app paths?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_043",
+    "question": "In the guide’s routing table, what is the path for Sign In?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Sign In?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_044",
+    "question": "What is the correct path string for Sign Up?",
+    "answer": "The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Sign Up?\nA: The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "signup",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_045",
+    "question": "What path should I use for Ideation (chat)?",
+    "answer": "The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Ideation (chat)?\nA: The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "ideation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_046",
+    "question": "Which URL path opens Source upload?",
+    "answer": "The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Source upload?\nA: The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "source_upload",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_047",
+    "question": "How do I navigate to Analyzation using app paths?",
+    "answer": "The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Analyzation using app paths?\nA: The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_048",
+    "question": "In the guide’s routing table, what is the path for Analyzation with a source pre-selected?",
+    "answer": "The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Analyzation with a source pre-selected?\nA: The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation_query",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_049",
+    "question": "What is the correct path string for Patents?",
+    "answer": "The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Patents?\nA: The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "patents",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_050",
+    "question": "What path should I use for Profile?",
+    "answer": "The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Profile?\nA: The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_051",
+    "question": "Which URL path opens Profile after successful Stripe checkout (common return URL)?",
+    "answer": "The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Profile after successful Stripe checkout (common return URL)?\nA: The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile_checkout_success",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_052",
+    "question": "How do I navigate to home (landing) using app paths?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to home (landing) using app paths?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_053",
+    "question": "In the guide’s routing table, what is the path for How To Use (home anchor)?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for How To Use (home anchor)?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_054",
+    "question": "What is the correct path string for Pricing (home anchor)?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Pricing (home anchor)?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_055",
+    "question": "What path should I use for Contact (home anchor)?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Contact (home anchor)?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_056",
+    "question": "Which URL path opens Sign In?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Sign In?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_057",
+    "question": "How do I navigate to Sign Up using app paths?",
+    "answer": "The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Sign Up using app paths?\nA: The guide indicates `/signup` for Sign Up. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "signup",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_058",
+    "question": "In the guide’s routing table, what is the path for Ideation (chat)?",
+    "answer": "The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Ideation (chat)?\nA: The guide indicates `/ideation` for Ideation (chat). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "ideation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_059",
+    "question": "What is the correct path string for Source upload?",
+    "answer": "The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Source upload?\nA: The guide indicates `/source_upload` for Source upload. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "source_upload",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_060",
+    "question": "What path should I use for Analyzation?",
+    "answer": "The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for Analyzation?\nA: The guide indicates `/analyzation` for Analyzation. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_061",
+    "question": "Which URL path opens Analyzation with a source pre-selected?",
+    "answer": "The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens Analyzation with a source pre-selected?\nA: The guide indicates `/analyzation?sourceId=NUMBER` for Analyzation with a source pre-selected. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "analyzation_query",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_062",
+    "question": "How do I navigate to Patents using app paths?",
+    "answer": "The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Patents using app paths?\nA: The guide indicates `/patents` for Patents. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "patents",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_063",
+    "question": "In the guide’s routing table, what is the path for Profile?",
+    "answer": "The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Profile?\nA: The guide indicates `/profile` for Profile. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_064",
+    "question": "What is the correct path string for Profile after successful Stripe checkout (common return URL)?",
+    "answer": "The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Profile after successful Stripe checkout (common return URL)?\nA: The guide indicates `/profile?checkout=success` for Profile after successful Stripe checkout (common return URL). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "profile_checkout_success",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_065",
+    "question": "What path should I use for home (landing)?",
+    "answer": "The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What path should I use for home (landing)?\nA: The guide indicates `/` for home (landing). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "home_landing",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_066",
+    "question": "Which URL path opens How To Use (home anchor)?",
+    "answer": "The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: Which URL path opens How To Use (home anchor)?\nA: The guide indicates `/#how-to-use` for How To Use (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "how_to_use_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_067",
+    "question": "How do I navigate to Pricing (home anchor) using app paths?",
+    "answer": "The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: How do I navigate to Pricing (home anchor) using app paths?\nA: The guide indicates `/#pricing` for Pricing (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "pricing_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_068",
+    "question": "In the guide’s routing table, what is the path for Contact (home anchor)?",
+    "answer": "The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: In the guide’s routing table, what is the path for Contact (home anchor)?\nA: The guide indicates `/#contact` for Contact (home anchor). Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "contact_anchor",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "path_variant_069",
+    "question": "What is the correct path string for Sign In?",
+    "answer": "The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "pageContent": "Q: What is the correct path string for Sign In?\nA: The guide indicates `/login` for Sign In. Prepend your organization’s host (example: https://app.provizypatens.com).",
+    "metadata": {
+      "section": "urls",
+      "intent": "navigation",
+      "tags": [
+        "path",
+        "login",
+        "routing"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_001",
+    "question": "How do I bookmark Analyzation with sourceId=1?",
+    "answer": "Use `/analyzation?sourceId=1` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=1?\nA: Use `/analyzation?sourceId=1` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_002",
+    "question": "How do I bookmark Analyzation with sourceId=2?",
+    "answer": "Use `/analyzation?sourceId=2` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=2?\nA: Use `/analyzation?sourceId=2` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_003",
+    "question": "How do I bookmark Analyzation with sourceId=3?",
+    "answer": "Use `/analyzation?sourceId=3` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=3?\nA: Use `/analyzation?sourceId=3` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_004",
+    "question": "How do I bookmark Analyzation with sourceId=4?",
+    "answer": "Use `/analyzation?sourceId=4` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=4?\nA: Use `/analyzation?sourceId=4` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_005",
+    "question": "How do I bookmark Analyzation with sourceId=5?",
+    "answer": "Use `/analyzation?sourceId=5` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=5?\nA: Use `/analyzation?sourceId=5` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_006",
+    "question": "How do I bookmark Analyzation with sourceId=6?",
+    "answer": "Use `/analyzation?sourceId=6` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=6?\nA: Use `/analyzation?sourceId=6` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_007",
+    "question": "How do I bookmark Analyzation with sourceId=7?",
+    "answer": "Use `/analyzation?sourceId=7` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=7?\nA: Use `/analyzation?sourceId=7` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_008",
+    "question": "How do I bookmark Analyzation with sourceId=8?",
+    "answer": "Use `/analyzation?sourceId=8` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=8?\nA: Use `/analyzation?sourceId=8` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_009",
+    "question": "How do I bookmark Analyzation with sourceId=9?",
+    "answer": "Use `/analyzation?sourceId=9` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=9?\nA: Use `/analyzation?sourceId=9` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_010",
+    "question": "How do I bookmark Analyzation with sourceId=10?",
+    "answer": "Use `/analyzation?sourceId=10` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=10?\nA: Use `/analyzation?sourceId=10` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_011",
+    "question": "How do I bookmark Analyzation with sourceId=11?",
+    "answer": "Use `/analyzation?sourceId=11` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=11?\nA: Use `/analyzation?sourceId=11` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_012",
+    "question": "How do I bookmark Analyzation with sourceId=12?",
+    "answer": "Use `/analyzation?sourceId=12` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=12?\nA: Use `/analyzation?sourceId=12` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_013",
+    "question": "How do I bookmark Analyzation with sourceId=13?",
+    "answer": "Use `/analyzation?sourceId=13` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=13?\nA: Use `/analyzation?sourceId=13` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_014",
+    "question": "How do I bookmark Analyzation with sourceId=14?",
+    "answer": "Use `/analyzation?sourceId=14` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=14?\nA: Use `/analyzation?sourceId=14` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_015",
+    "question": "How do I bookmark Analyzation with sourceId=15?",
+    "answer": "Use `/analyzation?sourceId=15` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=15?\nA: Use `/analyzation?sourceId=15` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_016",
+    "question": "How do I bookmark Analyzation with sourceId=16?",
+    "answer": "Use `/analyzation?sourceId=16` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=16?\nA: Use `/analyzation?sourceId=16` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_017",
+    "question": "How do I bookmark Analyzation with sourceId=17?",
+    "answer": "Use `/analyzation?sourceId=17` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=17?\nA: Use `/analyzation?sourceId=17` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_018",
+    "question": "How do I bookmark Analyzation with sourceId=18?",
+    "answer": "Use `/analyzation?sourceId=18` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=18?\nA: Use `/analyzation?sourceId=18` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_019",
+    "question": "How do I bookmark Analyzation with sourceId=19?",
+    "answer": "Use `/analyzation?sourceId=19` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=19?\nA: Use `/analyzation?sourceId=19` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_020",
+    "question": "How do I bookmark Analyzation with sourceId=20?",
+    "answer": "Use `/analyzation?sourceId=20` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=20?\nA: Use `/analyzation?sourceId=20` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_021",
+    "question": "How do I bookmark Analyzation with sourceId=21?",
+    "answer": "Use `/analyzation?sourceId=21` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=21?\nA: Use `/analyzation?sourceId=21` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_022",
+    "question": "How do I bookmark Analyzation with sourceId=22?",
+    "answer": "Use `/analyzation?sourceId=22` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=22?\nA: Use `/analyzation?sourceId=22` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_023",
+    "question": "How do I bookmark Analyzation with sourceId=23?",
+    "answer": "Use `/analyzation?sourceId=23` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=23?\nA: Use `/analyzation?sourceId=23` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_024",
+    "question": "How do I bookmark Analyzation with sourceId=24?",
+    "answer": "Use `/analyzation?sourceId=24` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=24?\nA: Use `/analyzation?sourceId=24` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_025",
+    "question": "How do I bookmark Analyzation with sourceId=25?",
+    "answer": "Use `/analyzation?sourceId=25` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=25?\nA: Use `/analyzation?sourceId=25` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_026",
+    "question": "How do I bookmark Analyzation with sourceId=26?",
+    "answer": "Use `/analyzation?sourceId=26` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=26?\nA: Use `/analyzation?sourceId=26` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_027",
+    "question": "How do I bookmark Analyzation with sourceId=27?",
+    "answer": "Use `/analyzation?sourceId=27` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=27?\nA: Use `/analyzation?sourceId=27` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_028",
+    "question": "How do I bookmark Analyzation with sourceId=28?",
+    "answer": "Use `/analyzation?sourceId=28` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=28?\nA: Use `/analyzation?sourceId=28` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_029",
+    "question": "How do I bookmark Analyzation with sourceId=29?",
+    "answer": "Use `/analyzation?sourceId=29` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=29?\nA: Use `/analyzation?sourceId=29` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_030",
+    "question": "How do I bookmark Analyzation with sourceId=30?",
+    "answer": "Use `/analyzation?sourceId=30` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=30?\nA: Use `/analyzation?sourceId=30` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_031",
+    "question": "How do I bookmark Analyzation with sourceId=31?",
+    "answer": "Use `/analyzation?sourceId=31` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=31?\nA: Use `/analyzation?sourceId=31` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_032",
+    "question": "How do I bookmark Analyzation with sourceId=32?",
+    "answer": "Use `/analyzation?sourceId=32` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=32?\nA: Use `/analyzation?sourceId=32` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_033",
+    "question": "How do I bookmark Analyzation with sourceId=33?",
+    "answer": "Use `/analyzation?sourceId=33` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=33?\nA: Use `/analyzation?sourceId=33` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_034",
+    "question": "How do I bookmark Analyzation with sourceId=34?",
+    "answer": "Use `/analyzation?sourceId=34` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=34?\nA: Use `/analyzation?sourceId=34` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_035",
+    "question": "How do I bookmark Analyzation with sourceId=35?",
+    "answer": "Use `/analyzation?sourceId=35` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=35?\nA: Use `/analyzation?sourceId=35` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_036",
+    "question": "How do I bookmark Analyzation with sourceId=36?",
+    "answer": "Use `/analyzation?sourceId=36` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=36?\nA: Use `/analyzation?sourceId=36` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_037",
+    "question": "How do I bookmark Analyzation with sourceId=37?",
+    "answer": "Use `/analyzation?sourceId=37` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=37?\nA: Use `/analyzation?sourceId=37` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_038",
+    "question": "How do I bookmark Analyzation with sourceId=38?",
+    "answer": "Use `/analyzation?sourceId=38` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=38?\nA: Use `/analyzation?sourceId=38` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_039",
+    "question": "How do I bookmark Analyzation with sourceId=39?",
+    "answer": "Use `/analyzation?sourceId=39` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=39?\nA: Use `/analyzation?sourceId=39` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_040",
+    "question": "How do I bookmark Analyzation with sourceId=40?",
+    "answer": "Use `/analyzation?sourceId=40` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=40?\nA: Use `/analyzation?sourceId=40` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_041",
+    "question": "How do I bookmark Analyzation with sourceId=41?",
+    "answer": "Use `/analyzation?sourceId=41` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=41?\nA: Use `/analyzation?sourceId=41` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_042",
+    "question": "How do I bookmark Analyzation with sourceId=42?",
+    "answer": "Use `/analyzation?sourceId=42` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=42?\nA: Use `/analyzation?sourceId=42` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_043",
+    "question": "How do I bookmark Analyzation with sourceId=43?",
+    "answer": "Use `/analyzation?sourceId=43` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=43?\nA: Use `/analyzation?sourceId=43` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_044",
+    "question": "How do I bookmark Analyzation with sourceId=44?",
+    "answer": "Use `/analyzation?sourceId=44` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=44?\nA: Use `/analyzation?sourceId=44` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_045",
+    "question": "How do I bookmark Analyzation with sourceId=45?",
+    "answer": "Use `/analyzation?sourceId=45` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=45?\nA: Use `/analyzation?sourceId=45` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_046",
+    "question": "How do I bookmark Analyzation with sourceId=46?",
+    "answer": "Use `/analyzation?sourceId=46` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=46?\nA: Use `/analyzation?sourceId=46` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_047",
+    "question": "How do I bookmark Analyzation with sourceId=47?",
+    "answer": "Use `/analyzation?sourceId=47` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=47?\nA: Use `/analyzation?sourceId=47` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_048",
+    "question": "How do I bookmark Analyzation with sourceId=48?",
+    "answer": "Use `/analyzation?sourceId=48` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=48?\nA: Use `/analyzation?sourceId=48` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_049",
+    "question": "How do I bookmark Analyzation with sourceId=49?",
+    "answer": "Use `/analyzation?sourceId=49` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=49?\nA: Use `/analyzation?sourceId=49` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_050",
+    "question": "How do I bookmark Analyzation with sourceId=50?",
+    "answer": "Use `/analyzation?sourceId=50` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=50?\nA: Use `/analyzation?sourceId=50` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_051",
+    "question": "How do I bookmark Analyzation with sourceId=51?",
+    "answer": "Use `/analyzation?sourceId=51` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=51?\nA: Use `/analyzation?sourceId=51` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_052",
+    "question": "How do I bookmark Analyzation with sourceId=52?",
+    "answer": "Use `/analyzation?sourceId=52` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=52?\nA: Use `/analyzation?sourceId=52` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_053",
+    "question": "How do I bookmark Analyzation with sourceId=53?",
+    "answer": "Use `/analyzation?sourceId=53` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=53?\nA: Use `/analyzation?sourceId=53` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_054",
+    "question": "How do I bookmark Analyzation with sourceId=54?",
+    "answer": "Use `/analyzation?sourceId=54` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=54?\nA: Use `/analyzation?sourceId=54` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_055",
+    "question": "How do I bookmark Analyzation with sourceId=55?",
+    "answer": "Use `/analyzation?sourceId=55` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=55?\nA: Use `/analyzation?sourceId=55` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_056",
+    "question": "How do I bookmark Analyzation with sourceId=56?",
+    "answer": "Use `/analyzation?sourceId=56` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=56?\nA: Use `/analyzation?sourceId=56` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_057",
+    "question": "How do I bookmark Analyzation with sourceId=57?",
+    "answer": "Use `/analyzation?sourceId=57` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=57?\nA: Use `/analyzation?sourceId=57` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_058",
+    "question": "How do I bookmark Analyzation with sourceId=58?",
+    "answer": "Use `/analyzation?sourceId=58` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=58?\nA: Use `/analyzation?sourceId=58` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_059",
+    "question": "How do I bookmark Analyzation with sourceId=59?",
+    "answer": "Use `/analyzation?sourceId=59` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=59?\nA: Use `/analyzation?sourceId=59` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_060",
+    "question": "How do I bookmark Analyzation with sourceId=60?",
+    "answer": "Use `/analyzation?sourceId=60` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=60?\nA: Use `/analyzation?sourceId=60` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_061",
+    "question": "How do I bookmark Analyzation with sourceId=61?",
+    "answer": "Use `/analyzation?sourceId=61` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=61?\nA: Use `/analyzation?sourceId=61` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_062",
+    "question": "How do I bookmark Analyzation with sourceId=62?",
+    "answer": "Use `/analyzation?sourceId=62` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=62?\nA: Use `/analyzation?sourceId=62` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_063",
+    "question": "How do I bookmark Analyzation with sourceId=63?",
+    "answer": "Use `/analyzation?sourceId=63` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=63?\nA: Use `/analyzation?sourceId=63` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_064",
+    "question": "How do I bookmark Analyzation with sourceId=64?",
+    "answer": "Use `/analyzation?sourceId=64` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=64?\nA: Use `/analyzation?sourceId=64` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_065",
+    "question": "How do I bookmark Analyzation with sourceId=65?",
+    "answer": "Use `/analyzation?sourceId=65` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=65?\nA: Use `/analyzation?sourceId=65` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_066",
+    "question": "How do I bookmark Analyzation with sourceId=66?",
+    "answer": "Use `/analyzation?sourceId=66` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=66?\nA: Use `/analyzation?sourceId=66` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_067",
+    "question": "How do I bookmark Analyzation with sourceId=67?",
+    "answer": "Use `/analyzation?sourceId=67` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=67?\nA: Use `/analyzation?sourceId=67` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_068",
+    "question": "How do I bookmark Analyzation with sourceId=68?",
+    "answer": "Use `/analyzation?sourceId=68` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=68?\nA: Use `/analyzation?sourceId=68` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_069",
+    "question": "How do I bookmark Analyzation with sourceId=69?",
+    "answer": "Use `/analyzation?sourceId=69` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=69?\nA: Use `/analyzation?sourceId=69` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_070",
+    "question": "How do I bookmark Analyzation with sourceId=70?",
+    "answer": "Use `/analyzation?sourceId=70` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=70?\nA: Use `/analyzation?sourceId=70` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_071",
+    "question": "How do I bookmark Analyzation with sourceId=71?",
+    "answer": "Use `/analyzation?sourceId=71` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=71?\nA: Use `/analyzation?sourceId=71` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_072",
+    "question": "How do I bookmark Analyzation with sourceId=72?",
+    "answer": "Use `/analyzation?sourceId=72` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=72?\nA: Use `/analyzation?sourceId=72` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_073",
+    "question": "How do I bookmark Analyzation with sourceId=73?",
+    "answer": "Use `/analyzation?sourceId=73` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=73?\nA: Use `/analyzation?sourceId=73` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_074",
+    "question": "How do I bookmark Analyzation with sourceId=74?",
+    "answer": "Use `/analyzation?sourceId=74` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=74?\nA: Use `/analyzation?sourceId=74` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_075",
+    "question": "How do I bookmark Analyzation with sourceId=75?",
+    "answer": "Use `/analyzation?sourceId=75` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=75?\nA: Use `/analyzation?sourceId=75` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_076",
+    "question": "How do I bookmark Analyzation with sourceId=76?",
+    "answer": "Use `/analyzation?sourceId=76` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=76?\nA: Use `/analyzation?sourceId=76` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_077",
+    "question": "How do I bookmark Analyzation with sourceId=77?",
+    "answer": "Use `/analyzation?sourceId=77` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=77?\nA: Use `/analyzation?sourceId=77` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_078",
+    "question": "How do I bookmark Analyzation with sourceId=78?",
+    "answer": "Use `/analyzation?sourceId=78` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=78?\nA: Use `/analyzation?sourceId=78` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_079",
+    "question": "How do I bookmark Analyzation with sourceId=79?",
+    "answer": "Use `/analyzation?sourceId=79` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=79?\nA: Use `/analyzation?sourceId=79` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  },
+  {
+    "id": "bookmark_sourceid_080",
+    "question": "How do I bookmark Analyzation with sourceId=80?",
+    "answer": "Use `/analyzation?sourceId=80` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "pageContent": "Q: How do I bookmark Analyzation with sourceId=80?\nA: Use `/analyzation?sourceId=80` by replacing the number with your real source ID. The guide uses NUMBER as a placeholder.",
+    "metadata": {
+      "section": "urls_signed_in",
+      "intent": "navigation",
+      "tags": [
+        "analyzation",
+        "sourceId",
+        "bookmark"
+      ]
+    }
+  }
+]

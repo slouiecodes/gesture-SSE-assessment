@@ -6,7 +6,8 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "tsx watch src/main.ts",
-    "seed": "tsx src/db/seed.ts"
+    "seed": "tsx src/db/seed.ts",
+    "ingest:kb": "tsx src/scripts/ingest-provizy-kb.ts"
   },
   "dependencies": {
     "express": "^4.21.2",
@@ -20,8 +21,7 @@
     "langchain": "^0.3.11",
     "@langchain/community": "^0.3.22",
     "@langchain/core": "^0.3.26",
-    "@langchain/openai": "^0.3.17",
-    "@langchain/textsplitters": "^0.1.0"
+    "@langchain/openai": "^0.3.17"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",

@@ -6,7 +6,8 @@ export const openApiDocument = {
   openapi: '3.0.3',
   info: {
     title: 'Experimentation API',
-    description: 'A/B experiment assignment, events, and experiment summaries.',
+    description:
+      'A/B experiment assignment, events, experiment summaries, and Provizy KB search (vectors loaded offline; see npm run ingest:kb).',
     version: '0.1.0',
   },
   servers: [{ url: '/', description: 'Same origin as this service' }],
@@ -14,6 +15,7 @@ export const openApiDocument = {
     { name: 'experiments', description: 'Experiments and winner summary' },
     { name: 'users', description: 'Sticky variant assignment' },
     { name: 'events', description: 'Event logging' },
+    { name: 'rag', description: 'Provizy KB ingest and similarity search' },
   ],
   paths: {
     '/experiments': {
@@ -139,6 +141,32 @@ export const openApiDocument = {
           },
           '400': { $ref: '#/components/responses/BadRequest' },
           '404': { $ref: '#/components/responses/NotFound' },
+        },
+      },
+    },
+    '/rag/query-kb': {
+      post: {
+        tags: ['rag'],
+        summary: 'Similarity search over Provizy KB',
+        operationId: 'ragQueryKb',
+        requestBody: {
+          required: true,
+          content: {
+            'application/json': {
+              schema: { $ref: '#/components/schemas/QueryKbDto' },
+            },
+          },
+        },
+        responses: {
+          '200': {
+            description: 'Matches with scores',
+            content: {
+              'application/json': {
+                schema: { $ref: '#/components/schemas/QueryKbResponse' },
+              },
+            },
+          },
+          '400': { $ref: '#/components/responses/BadRequest' },
         },
       },
     },
@@ -281,6 +309,37 @@ export const openApiDocument = {
           eventType: { type: 'string' },
           payload: { nullable: true, type: 'object', additionalProperties: true },
           createdAt: { type: 'string', format: 'date-time' },
+        },
+      },
+      QueryKbDto: {
+        type: 'object',
+        required: ['query'],
+        properties: {
+          query: { type: 'string', minLength: 2 },
+          k: { type: 'integer', minimum: 1, maximum: 30 },
+          userId: { type: 'string' },
+          experimentId: { type: 'integer', minimum: 1 },
+          variantId: { type: 'integer', minimum: 1 },
+        },
+      },
+      QueryKbMatch: {
+        type: 'object',
+        properties: {
+          score: { type: 'number' },
+          pageContent: { type: 'string' },
+          metadata: { type: 'object', additionalProperties: true },
+        },
+      },
+      QueryKbResponse: {
+        type: 'object',
+        properties: {
+          query: { type: 'string' },
+          k: { type: 'integer' },
+          tableName: { type: 'string' },
+          matches: {
+            type: 'array',
+            items: { $ref: '#/components/schemas/QueryKbMatch' },
+          },
         },
       },
     },
