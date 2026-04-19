@@ -13,10 +13,7 @@ const configuration = () => ({
       /** Per-request timeout for OpenAI HTTP calls (embeddings / chat). */
       requestTimeoutMs: Number(process.env.OPENAI_REQUEST_TIMEOUT_MS ?? 120_000),
     },
-    experiments: {
-      minExposuresForWinner: Number(process.env.MIN_EXPOSURES_FOR_WINNER ?? 5),
-      webhookUrl: process.env.EXPERIMENT_WEBHOOK_URL ?? '',
-    },
+    
     rag: {
       tableName: process.env.RAG_TABLE_NAME ?? 'experiment_rag_docs',
       kbTableName: process.env.PROVIZY_KB_TABLE ?? 'provizy_kb_docs',
